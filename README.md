@@ -13,22 +13,13 @@ Leveraging customer information is paramount for most businesses. In the case of
 In the Dataset :
 
 A .There are 7 Independent variables:
-1.Age(Numeric)
-2.Balance: average yearly balance, in euros (numeric)
-3.Day: last contact day of the month (numeric 1 -31)
-4.Duration: last contact duration, in seconds (numeric).
-5.Campaign: number of contacts performed during this campaign and for this client (numeric, includes last contact) 
-6.pdays: number of days that passed by after the client was last contacted from a previous campaign (numeric; 999 means client was not previously contacted)
-7.previous: number of contacts performed before this campaign and for this client (numeric)
+1.Age(Numeric)   2.Balance: average yearly balance, in euros (numeric)  3.Day: last contact day of the month (numeric 1 -31) 4.Duration: last contact duration, in seconds (numeric).  5.Campaign: number of contacts performed during this campaign and for this client (numeric, includes last contact)   6.pdays: number of days that passed by after the client was last contacted from a previous campaign (numeric; 999 means client was not previously contacted)   7.previous: number of contacts performed before this campaign and for this client (numeric)
+
+
 
 B .There are 8 Ordinal Categorical Variables:
-1.Job : type of job 
-2.Marital : marital status 
-3.Education
-4.Default: has credit in default? (categorical: 'no','yes','unknown')
-5.Housing: has housing loan? (categorical: 'no','yes','unknown')
-6.Loan: has personal loan? (categorical: 'no','yes','unknown')
-7.Contact: contact communication type (categorical:'cellular','telephone')
-8.poutcome: outcome of the previous marketing campaign(categorical: 'failure','nonexistent','success')
+1.Job : type of job   2.Marital : marital status   3.Education  4.Default: has credit in default? (categorical: 'no','yes','unknown')  5.Housing: has housing loan? (categorical: 'no','yes','unknown')   6.Loan: has personal loan? (categorical: 'no','yes','unknown')   7.Contact: contact communication type (categorical:'cellular','telephone')  8.poutcome: outcome of the previous marketing campaign(categorical: 'failure','nonexistent','success')
+
+
 
 C .And the Target variable is binary category variable(desired target)
